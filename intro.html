@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script>
+    // Variable
+    var a = 10;
+    var b = "20";
+    var c = a + b; //jumlah
+    var d = a - b; //kurang
+    var e = a * b; //kali
+    var f = a / b; //bagi
+    var g = a % b; //modulus
+    var h = a ^ b; //pangkat
+
+    // type data
+    var karakter = ['upin', 'ipin', 'mail', 'jarjit', 'ros']
+
+    // data type object
+    var identitas = {
+        nama : 'elsa',
+        umur : 14,
+        alamat : 'Istana Arendel'
+    };
+
+    var pesan_bahaya = "Awas bahaya!!";
+
+    // function
+    function profil (nama, umur) {
+        alert("Nama: " + nama + ", Umur " + umur + " tahun");
+    }
+
+    // function call
+    // profil ("Caca",19);
+
+    //print
+    // console.log("nama " + identitas.nama + ", umur " + identitas.umur + " tahun.");
+
+    // conditional
+    var nilai = 80;
+    if (nilai >= 80) {
+        alert("Nilai Anda A");
+        // nilai 70 -79
+    } else if (nilai >= 70 && nilai < 80) {
+        alert("Nilai Anda B");
+    } else if (nilai >= 60 && nilai < 70) {
+        alert("Nilai Anda C");   
+    } else {
+        alert("Maaf, anda gagal!");
+    }
+ </script>   
+</body>
+</html>
